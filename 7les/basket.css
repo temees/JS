@@ -1,0 +1,26 @@
+#modal {
+    width: 800px;
+    height: 500px;
+    background-color: #ccc;
+    border: 1px solid #555;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px #222;
+    position: fixed;
+    top: 50px;
+    left: calc(50% - 500px);
+    display: none;
+}
+
+.prod {
+    display: block;
+}
+.img img {
+    width: 100%;
+    display: none;
+}
+.img img.active {
+    display: block;
+}
+#address, #comment, #next, #zakaz {
+    display: none;
+}
